@@ -28,7 +28,7 @@ jobs:
         export AWS_ACCESS_KEY_ID=${{ secrets.aws_key_id }}
         export AWS_SECRET_ACCESS_KEY=${{ secrets.aws_access_key }}
         export AWS_DEFAULT_REGION="eu-west-2"
-        cd ecr
+        cd eba
         terraform init
         terraform fmt
         terraform plan
