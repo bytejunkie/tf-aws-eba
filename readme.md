@@ -1,7 +1,7 @@
 
 # tf-aws-containers
 
-This repo contains two modules
+This repo contains the following module:
 
 - eba
 This module contains code to build an Elastic Beanstalk Application, including the environment needed to support it. 
