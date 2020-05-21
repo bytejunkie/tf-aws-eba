@@ -25,7 +25,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
-        export AWS_ACCESS_KEY_ID=${{ secrets.aws_key_id }}
+        export AWS_ACCESS_KEY_ID=${{ secrets.aws_access_key_id }}
         export AWS_SECRET_ACCESS_KEY=${{ secrets.aws_access_key }}
         export AWS_DEFAULT_REGION="eu-west-2"
         cd eba
