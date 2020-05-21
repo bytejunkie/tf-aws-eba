@@ -6,7 +6,7 @@ This repo contains the following module:
 - eba
 This module contains code to build an Elastic Beanstalk Application, including the environment needed to support it. 
 
-##Re-using these templates
+## Re-using these templates
 
 You will need to create an IAM user for terraform deployments. 
 Then create the following secrets for your deployment pipeline. 
@@ -15,7 +15,7 @@ Then create the following secrets for your deployment pipeline.
 
 I'm using Github actions to deploy, which you can tell from the notation in the workflow file, of ${{ secrets.aws_access_key }}
 
-##Naming Convention
+## Naming Convention
 
 If you look in defaults.tf, this repo uses a pair of variables to setup a naming convention. 
 
@@ -38,6 +38,6 @@ in main.tf the template name adopts the prefix.
   name                = format("%s-%s", local.resource_prefix, "ebe-template-01")
 111
 
-###contact
+### contact
 for help and suggestions, either create an issue on the github repo or contact matt@bytejunkie.dev
 
