@@ -36,7 +36,7 @@ in main.tf the template name adopts the prefix.
 
 ```HCL
   name                = format("%s-%s", local.resource_prefix, "ebe-template-01")
-111
+```
 
 ### contact
 for help and suggestions, either create an issue on the github repo or contact matt@bytejunkie.dev
